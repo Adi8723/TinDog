@@ -1,0 +1,20 @@
+body {
+   background-color: #EAf6f6;
+   margin-left: 50px;
+}
+
+hr{
+   border-style: none;
+   height: 0px;
+  border-top-style: dotted;
+   width: 50px;
+border-width: 5px; 
+border-color: grey;  
+}
+
+.name{
+   margin-left: 100px;
+}
+h1,h3{
+   color: #66bfbf;
+}
