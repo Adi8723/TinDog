@@ -4,41 +4,52 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 
 }
 
-
-h1{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
-    /**/
-}
-h2{
+h1,h2,h3,h4,h5,h6{
   font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
   font-weight: bold;
-  line-height: 1.5;
+
 }
-h3{
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1.5;
-  font-weight: bold;
-}
+
 p{
   color: #8f8f8f;
 }
 
-#title{
-  background-color: #ff4c68 ;
+
+/* Heading */
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
   color: #fff;
- 
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Container  */
+.container-fluid{
+  padding: 7% 15% ;
+}
+
+/* BG colored */
+.colored-section{
+  background-color: #ff4c68;
 
 }
-.container-fluid{
-  padding: 3% 15% 7%;
+
+/* BG White */
+.white-section{
+  
 }
+
 
 /* Navigation Bar*/
 
@@ -70,8 +81,15 @@ padding: 0 18px;
 }
 
 
-/* Title Image  */
+/* Title   */
 
+
+#title .container-fluid{
+  padding:3% 7% 15% ;
+ text-align: left;
+
+
+}
 .title-img{
    transform: rotate(25deg);
   position: absolute;
@@ -83,14 +101,12 @@ padding: 0 18px;
 /* .feature section */
 
 #features{
-padding: 7% 15%;
 background-color: #fff;
 position: relative;
 
 
 }
 .feature-box{
-  text-align: center;
   padding: 4.5%;
 }
 .bg-icon {
@@ -101,11 +117,12 @@ position: relative;
 color: #ff4c68;
 }
 
-
+.feature-title{
+  font-size: 1.5rem;
+}
 /* testimonials section */
 
 #testimonials {
-text-align: center;
 background-color: #ef8172;
 color: #fff;
 }
@@ -115,15 +132,15 @@ color: #fff;
   margin: 20px;
 }
 
-.carousel-item{
-  padding: 7% 15%;
 
+.testamonial-text{
+  line-height: 1.5;
+  font-size: 3rem;
 }
 /* Press  */
 
 #press{
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -140,21 +157,19 @@ color: #fff;
 
 #pricing{
   padding: 100px;
-  text-align: center;
  
 }
 .pricing-card{
  padding: 3% 2%;
 }
-
+.price-text{
+  line-height: 1.5;
+  font-size: 3rem;
+}
 
 /* Call to Action */      
 
-#cta{
-  background-color: #ff4c68;
-  text-align: center;
-  padding: 7% 15%;
-}
+
 
 .color-white{
   color: white;
@@ -167,13 +182,7 @@ color: #fff;
 
 /* Footer */
 
-#footer{
-background-color: #fff;
-text-align: center;
-padding: 7% 15%;
 
-
-}
 
 .sosial-icon{
   margin: 20px 10px;
